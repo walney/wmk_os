@@ -1,0 +1,39 @@
+Objetivos:
+* Construir uma gramática para um trecho bem determinado de uma linguagem de
+programação.
+* Construir e implementar uma máquina de Moore a partir de um AFD para simular um
+scanner (analisador léxico) do caso proposto.
+* Aplicar a técnica da conversão de gramáticas em algoritmos e desta forma criar um
+parser (analisador sintático) e um scanner (analisador léxico) para o trecho proposto.
+* Melhorar a compreensão dos elementos da Hierarquia de Chomsky e suas relações,
+bem como a sua aplicabilidade na construção de partes de um compilador.
+
+Descrição do trabalho:
+Um software para executar um analisador léxico e sintático desenvolvido em ling. C
+1. Comando PARA;
+2. Comando SE;
+3. Comando LER;
+4. Comando ESCREVER;
+5. Atribuição "<-";
+6. Inicio e Fim.
+
+Obs.:
+* As expressões condicionais devem ser formadas apenas por um operador relacional:
+maior, maior ou igual, menor e menor ou igual, ou seja, não existe OU / E. Os elementos
+comparados só podem ser expressões aritméticas.
+**Não existem operadores lógicos.
+* As expressões aritméticas devem ser formadas apenas por variáveis, números,
+parênteses balanceados e as operações de soma e subtração.
+* O comando de atribuição só deve trabalhar com expressões aritméticas. NÃO É
+possível ter atribuições múltiplas, tal como: b <- a <- 5;
+* Não deve ser considerado o tipo string.
+* O comando Escrever só deve trabalhar com variáveis.
+* Não devem existir palavras reservadas para a formação dos nomes de variáveis. Por
+exemplo, inteiro deve ser aceito como variável apesar de ser reservado.
+* Os únicos comandos aceitos como corpo de programa são os 8 enumerados acima.
+Detalhes necessários da implementação
+* O analisador léxico deve ser implementado através da técnica da análise preditiva feita
+a partir da Gramática Regular/Máquina de Moore.
+* Identificação, do número da linha, do número da coluna e do lexema que provocou o
+erro sintático.
+
